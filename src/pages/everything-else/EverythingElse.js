@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../components/navbar/Navbar';
 
-const Animation = () => {
+const EverythingElse = () => {
   return (
     <>
       <Navbar />
@@ -26,4 +26,4 @@ const Animation = () => {
     </>
   );
 };
-export default Animation;
+export default EverythingElse;
