@@ -2,11 +2,10 @@ import React from 'react';
 // import Layout from '../../components/layout/Layout';
 import Navbar from '../../components/navbar/Navbar';
 
-
 const Animation = () => {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <div id="giflist" className="clearfix">
         <div className="flex flex-wrap overflow-hidden sm:-mx-3">
           <div className="w-1/4 overflow-hidden sm:my-3 sm:px-3">
@@ -25,7 +24,7 @@ const Animation = () => {
           </div>
         </div>
       </div>
-      </>
+    </>
   );
 };
 export default Animation;
